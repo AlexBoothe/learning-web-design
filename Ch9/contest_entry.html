@@ -10,6 +10,7 @@
             <form action ="http://www.learningwebdesign.com/contest.php" method="post">
            <fieldset>
            <legend>Contest Entry Information</legend>
+           <form>
            <ul>
            <li><label for ="form-name">Name:</label><input type="text" name="username" id="form-name"></li>
            <li><label for ="form-email">Email Address:</label><input type="text" name="emailaddress" id="form-email"></li>
@@ -31,7 +32,18 @@
                       <li><input type="checkbox" name="features" value="light-up">Light-up heels</li> 
                        <li><input type="checkbox" name="features" value="mp3-enabled">MP3-enabled</li>  </ul>
                        <p>Size</p><p>Sizes reflect standard men's sizes:</p>
-                       <p><input type="submit" value="Pim my shoes!"><input type="reset"></p>
+                       <select name="size" size="1">
+                       <option>5</option>
+                       <option>6</option>
+                       <option>7</option>
+                       <option>8</option>
+                       <option>9</option>
+                       <option>10</option>
+                       <option>11</option>
+                       <option>12</option>
+                       <option>13</option>
+                       </select>
+                       <p><input type="submit" value="Pimp my shoes!"><input type="reset"></p>
                        </form>
                        </body>
                        </html>
