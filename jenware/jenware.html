@@ -16,9 +16,51 @@
         background-repeat: repeat-x; 
         background-color: #fdf9bd;
         margin: 0
-         /* Old browsers */}
+          /* Old browsers */}
       /* link styles
-      */a:link {    color: #C00;  
+      */
+      #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: auto;
+        width: 19.5em;
+      }
+      #nav ul li {
+        float: left;
+      }
+      #nav {
+  overflow: hidden;
+  width: 100%;
+}
+#nav ul li a {
+  display: block;
+  padding: .5em;
+  border: 1px solid #ba89a8;
+  border-radius: .5em;
+  margin: .25em;
+}
+#nav ul a:focus {
+  color: #fc6
+  border-color: #fff;
+}
+#nav ul a:hover {
+  color: #fc6;
+  border-color: #fff;
+}
+#products {
+  overflow: hidden;
+}
+      #products {
+        clear: both;
+      }
+      #products img {
+        float: left;
+        margin: 0 6px 6px 0;
+      }
+      #products.more {
+        clear: left;
+      }
+      a:link {    color: #C00;  
       }
       a{
         text-decoration: none;
@@ -30,7 +72,10 @@
       }a:hover {    color: #921A66; 
       }a:active {	color:#F00;}/* styles for the intro section
       */#intro {	text-align: center; margin: 2em 0 1em;
-      }#intro h2 {	font-size: 1.2em;	text-transform: uppercase;	letter-spacing: .2em;	color: #f26521; margin-top: -10px;
+      }
+      <p class="more"> <a href="#"> More about custom barware...</a></p>
+      <p class="more"><a href="#"> More about our onesies...</a></p>
+      #intro h2 {	font-size: 1.2em;	text-transform: uppercase;	letter-spacing: .2em;	color: #f26521; margin-top: -10px;
       }#intro p {	font-family: Georgia, "Times New Roman", Times, serif;	font-style: italic; margin:1em;}/* styles for navigation
       */#nav {	background-color: #751c54;}#nav ul {	list-style:none;
       } #nav ul li {	font-weight: normal;
